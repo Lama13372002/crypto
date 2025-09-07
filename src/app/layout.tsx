@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CryptoExchange - Modern Digital Currency Exchange",
-  description: "Secure and fast cryptocurrency exchange platform with instant deposits, withdrawals, and real-time trading.",
+  title: "CryptoExchange",
+  description: "Cryptocurrency exchange",
 };
 
 export default function RootLayout({
