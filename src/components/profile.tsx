@@ -96,7 +96,7 @@ export function Profile() {
               <User className="text-white" size={24} />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-gray-900">John Doe</h3>
+              <h3 className="text-xl font-bold text-gray-900">Test</h3>
               <p className="text-gray-500">Premium Member</p>
               <div className="flex items-center gap-2 mt-1">
                 <Badge className="bg-blue-100 text-blue-700 hover:bg-blue-100">Level 2</Badge>
