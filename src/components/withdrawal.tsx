@@ -120,7 +120,7 @@ export function Withdrawal() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 p-6 pb-24">
       <div className="max-w-md mx-auto">
-        <h1 className="text-2xl font-bold text-gray-900 mb-6">Withdraw Funds</h1>
+        <h1 className="text-2xl font-bold text-gray-900 mb-6">Withdrawal Funds</h1>
 
         {/* Currency Selection */}
         <Card className="p-6 bg-white shadow-lg border-0 rounded-3xl mb-6">
@@ -210,7 +210,7 @@ export function Withdrawal() {
             onClick={() => setAmount(selectedCurrencyInfo?.balance || '')}
             className="w-full mt-2 rounded-xl"
           >
-            Withdraw All
+            Withdrawal All
           </Button>
         </Card>
 
@@ -279,7 +279,7 @@ export function Withdrawal() {
         {/* Withdrawal Button */}
         <Button className="w-full bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white font-semibold py-4 rounded-2xl shadow-lg mb-6">
           <Minus className="mr-2" size={20} />
-          Withdraw {amount || '0'} {selectedCurrency}
+          Withdrawal {amount || '0'} {selectedCurrency}
         </Button>
 
         {/* Recent Withdrawals */}
