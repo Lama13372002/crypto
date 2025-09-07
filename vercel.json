@@ -4,11 +4,7 @@
   "installCommand": "bun install",
   "framework": "nextjs",
   "regions": ["fra1"],
-  "functions": {
-    "app/api/**/*.{js,ts}": {
-      "runtime": "@vercel/node@latest"
-    }
-  },
+
   "headers": [
     {
       "source": "/(.*)",
