@@ -25,13 +25,13 @@ export function Profile() {
     {
       title: 'Email Verification',
       status: 'completed',
-      description: 'john.doe@example.com',
+      description: 'test@example.com',
       icon: Mail
     },
     {
       title: 'Phone Verification',
       status: 'completed',
-      description: '+1 (555) 123-4567',
+      description: '+1 (000) 000-0000',
       icon: Smartphone
     },
     {
